@@ -338,6 +338,7 @@ a:focus,
 .nav > li a:focus {
     border-color: #66afe9;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(4, 98, 175, 0.808);
+    border-radius: 8px;
 }
 
 .navbar-toggle {
@@ -788,8 +789,9 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background:#002d81;
-    color: #FFFFFF!important;
+    background: #FFFFFF;
+    color: #002d81 !important;
+    border: 1px solid #002d81;
 }
 
 .ltc-white {
